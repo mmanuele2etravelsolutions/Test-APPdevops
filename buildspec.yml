@@ -3,8 +3,8 @@ version: 0.2
 env:
   variables:
     imagen: cristian/fastapi-devops
-    REPOSITORY_URI: 755373511136.dkr.ecr.us-west-2.amazonaws.com/test-core
-    DOCKER_CONTAINER_NAME: test-core
+    REPOSITORY_URI: 755373511136.dkr.ecr.us-west-2.amazonaws.com/coretest
+    DOCKER_CONTAINER_NAME: coretest
 
 phases:
   pre_build:
